@@ -31,7 +31,7 @@ public class BrowserFactory {
 
 	private  WebDriver initFirefoxDriver() {
 		System.setProperty("webdriver.gecko.driver",
-				"C:\\Users\\stepp\\Desktop\\curso-bdd\\workspace\\leilao\\drivers\\geckodriver.exe");
+				"C:\\Users\\anony\\Documents\\projetos\\1821-bdd-cucumber-java\\drivers");
 		return new FirefoxDriver();
 	}
 }
